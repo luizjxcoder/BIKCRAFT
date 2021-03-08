@@ -4,7 +4,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
 
+.btn {
+    border: 3px solid #efc63e;
+    padding: 10px 30px;
+    color: #efc63e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
 
 
 
@@ -26,7 +41,7 @@ body {
 .header_menu ul li{
     display: inline-block;
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .header_menu ul li a{
@@ -39,13 +54,65 @@ body {
     padding: 10px 0; /* este padding aumenta área de contato do link*/
 }
 
+.header_menu ul li a:hover {
+   color: #fff;
 
-
-
-
-
-
+}
 
 
 
 /* INTRODUÇÃO*/
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 96px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.btn:hover {
+   color: #fff;
+   border-color: #fff;
+}
+
+
+.introducao h1 {
+    font-size: 48PX;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 40px ;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after { /* criação das linhas antes e depois do p*/
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+}
+
+
+.quote-externo cite {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+
