@@ -21,6 +21,11 @@ p {
     letter-spacing: .1em;
 }
 
+.btn.btn_preto:hover {
+    color: #000;
+    border-color: #000;
+}
+
 .subtitulo {
     font-size: 24px;
     line-height: 30px;
@@ -52,6 +57,7 @@ p {
     width: 100%;
     background: #efc63e;
     padding: 15px 0;
+    z-index: 10px; /*QUEBRA O POSITION DA PÁGINA*/
 }
 
 .header_menu {
@@ -175,5 +181,15 @@ p {
 .produtos_icone {
     background: #000;
     padding: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
 }
 
