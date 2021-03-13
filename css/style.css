@@ -57,7 +57,7 @@ p {
     width: 100%;
     background: #efc63e;
     padding: 15px 0;
-    z-index: 10px; /*QUEBRA O POSITION DA PÁGINA*/
+    z-index: 10; /*QUEBRA O POSITION DA PÁGINA*/
 }
 
 .header_menu {
