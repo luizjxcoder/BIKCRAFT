@@ -193,3 +193,26 @@ p {
     margin-bottom: 20px;
 }
 
+/* PORTIFÓLIO */
+
+.portifolio {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+    color: #efc63e;
+}
+
+.portifolio .subtitulo:after {
+    background: #efc63e;
+}
+
+.portifolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portifolio p {
+    color: #fff;
+}
