@@ -228,8 +228,53 @@ img {
 
 .qualidade {
     padding: 60px 0;
+    position: relative;
 }
 
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/marca.png") no-repeat center;
+    position: absolute;
+    top: 210px;
+    right: 326px;
+    z-index: -1;
+}
+
+
 .qualidade img {
-    margin: auto;
+    margin: 0 auto;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
+    margin-left: 165px;
+    
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+
+.qualidade_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 6px auto;
 }
