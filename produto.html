@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BikeCraft - Sobre</title>
+    <title>BikeCraft</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
 </head>
 <body>
 
@@ -18,11 +17,11 @@
 
    <header class="header">
        <div class="container">
-           <a href="home.html" class="grid-4">
+           <a href="index.html" class="grid-4">
            <img src="img/logo.png" alt="logotipo"></a>
            <nav class="grid-12 header_menu">
                <ul>
-                   <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
+                   <li><a href="sobre.html">Sobre</a></li>
                    <li><a href="produto.html">Produtos</a></li>
                    <li><a href="portifolio.html">Portifólio</a></li>
                    <li><a href="contato.html">Contato</a></li>
@@ -34,42 +33,83 @@
 
 <!-- INTRODUÇÃO DO SITE -->
 
-   <section class="introducao-interna interna_sobre">
+   <section class="introducao">
        <div class="container">
-           <h1>SOBRE</h1>
-           <p>conheça mais sobre a Bikcraft</p>
+           <h1>Biciletas feitas a mão</h1>
+           <blockquote class="quote-externo">
+               <p>
+                "não tenha nada em sua casa que você
+                não considere útil ou acredita ser bonito"
+               </p>
+               <cite>WILLIAN MORRIS</cite>            
+           </blockquote>
+           <a href="produtos.html"class="btn">Orçamento</a>
        </div>
-       </section>
+   </section>
 
- 
-<!--MISSÃO E VALORES-->
 
-       <section class="missao_sobre container">
-           <div class="grid-10">
-               <h2 class="subtitulo-interno">Historia, Missão, Visão</h2>
-               <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse 
-                por todos os detalhes da vida cotidiana. Interesse por todos os detalhes 
-                da vida cotidiana.</p>
-                
-                <p>O verdadeiro segredo da felicidade está em ter um genuíno. 
-                interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes
-                da vida cotidiana.</p>         
-           </div>
-           <div class="grid-6">
-               <h2 class="subtitulo-interno">Valores</h2>
-               <ul>
-                   <li>- Qualidade no processo com</li>
-                   <li>- - Foco no cliente sem perder a</li>
-                   <li>- - Diversão, preservando a</li>
-                   <li>- Natureza com sustentabilidade</li>
-               </ul>               
-            </div>
-            <div class="grid-16 foto-equipe">
-                <img src="img/equipe-bikcraft.jpg" alt="Equipe Bike">
+<!-- SEÇÃO PORTIFÓLIO, PRODUTOS --> 
 
-            </div>
+<section class="produtos_container">
+    <h2 class="subtitulo">PRODUTOS</h2>
+    <ul class="produtos_lista">
+        <li class="grid-1-3">
+            <div class="produtos_icone">
+            <img src="img/produtos/passeio.svg" alt="Bikcraft Passeio">
+            </div> 
 
-       </section>
+            <h3>PASSEIO</h3>
+            <p>O Lorem Ipsum é um texto modelo da indústria tipográfica
+            e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão 
+            usado </p>
+        </li>
+
+        <li class="grid-1-3">
+            <div class="produtos_icone">
+            <img src="img/produtos/esporte.svg" alt="Bikcraft Eporte">
+            </div> 
+
+            <h3>ESPORTE</h3>
+            <p>O Lorem Ipsum é um texto modelo da indústria tipográfica
+            e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão 
+            usado </p>
+        </li>
+
+        <li class="grid-1-3">
+            <div class="produtos_icone">
+            <img src="img/produtos/retro.svg" alt="Bikcraft Retro">
+            </div> 
+
+            <h3>RETRO</h3>
+            <p>O Lorem Ipsum é um texto modelo da indústria tipográfica
+            e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão 
+            usado </p>
+        </li>
+    </ul>
+
+    <div class="call">
+        <p>clique aqui e veja os detalhes dos produtos</p>
+        <a href="produtos.html" class="btn btn_preto">Produtos</a>
+    </div>
+
+</section>
+<!-- FECHA PRODUTOS -->
+
+<section class="portifolio">
+    <div class="container">
+        <h2 class="subtitulo">Portifólio</h2>
+        <ul class="portifolio_lista">
+            <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
+            <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta Psseio"></li>
+            <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+        </ul>
+
+        <div class="call">
+            <p>conheça nosso portifólio</p>
+            <a href="portifolio.html" class="btn">Portifólio</a>
+        </div>
+    </div>
+</section>
 
 
 <!--SEÇÃO QUALIDADE-->
@@ -96,8 +136,12 @@
                de renovação pode despertar o espirito</p>
         </li>
     </ul>
-</section>
 
+    <div class="call">
+        <p>conheça nossa história</p>
+        <a href="sobre.html" class="btn btn_preto">Sobre</a>
+    </div>
+</section>
 
 
 <!--ÁREA DE QUEBRA DE CITAÇÃO ANTES DO RODAPÉ-->

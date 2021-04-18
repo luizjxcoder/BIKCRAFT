@@ -109,6 +109,12 @@ img {
 
 }
 
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+    font-size: 18px;
+    
+}
+
 
 
 /* INTRODUÇÃO*/
