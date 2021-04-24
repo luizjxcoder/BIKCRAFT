@@ -451,7 +451,7 @@ img {
     width: 12px;
     height: 12px;
     margin: 4px;
-    border: none;
+    border: hidden;
     padding: 8px;
     cursor: pointer;
     border-radius: 6px;
@@ -462,4 +462,19 @@ img {
 
 .js [data-slide-nav] > button.active {
     background-color: #efc63e;
+  }
+
+  .js [data-anime] {
+      opacity: 0;
+      transform: translate3d(0, -40px, 0);
+  }
+
+  .js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+
+  .js .anime {
+      opacity: 1;
+      transform: none;
+      transition: opacity 800ms, transform 800ms;
   }
