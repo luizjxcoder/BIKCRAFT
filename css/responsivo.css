@@ -33,6 +33,7 @@
 
 .produto_icone {
 	padding: 41px 0;
+	height: 225px;
 }
 
 .produto_info p{
@@ -96,7 +97,7 @@
 .introducao {
 	margin-top: 0px;
 	padding-top: 40px;
-	background: url("../img/bg-mobile.jpg") no-repeat center;
+	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
 }
 
@@ -106,17 +107,17 @@
 	margin-top: 0px;
 }
 
-/*Call*/
+/*CALL*/
 .call {
 	padding-top: 10px;
 }
 
-/*Qualidade Home*/
+/*QUALIDADE HOME*/
 .qualidade:after {
 	display: none;
 }
 
-/*Sobre*/
+/*SOBRE*/
 
 .missao_sobre p {
 	font-size: 14px;
@@ -129,7 +130,7 @@
 	line-height: 25px;
 }
 
-/*Produtos*/
+/*PRODUTOS*/
 
 .produto_item h2{
 	top: -100px;
@@ -137,7 +138,7 @@
 }
 
 .produto_icone {
-	padding: 41px 0;
+	padding: 41px 0 auto;
 }
 
 .produto_info p{
@@ -163,11 +164,11 @@
 	padding-right: 0px;
 }
 
-/*Contato*/
+/*CONTATO*/
 
 .contato_form {
 	padding-right: 0px;
 	margin-bottom: 40px;
 }
 
-} /* Final do estilo para smartphone */
+} /* FIM ESTILO SMARTPHONE */

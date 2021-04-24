@@ -73,7 +73,6 @@ img {
 
 
 
-
 /* HEADER*/
 
 .header {
@@ -209,7 +208,7 @@ img {
 /*PRODUTOS*/
 
 .produtos_container {
-    padding: 60px 160px;
+    padding: 60px 0x;
 }
 
 .produtos_lista li {
@@ -227,7 +226,7 @@ img {
 .produtos_lista li h3 {
     font-weight: bold;
     font-size: 18px;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -266,26 +265,26 @@ img {
 
 /* PORTIFÓLIO */
 
-.portifolio {
+.portfolio {
     width: 100%;
     background: #000;
     padding: 40px 0;
 }
 
-.portifolio .subtitulo {
+.portfolio .subtitulo {
     color: #efc63e;
 }
 
-.portifolio .subtitulo:after {
+.portfolio .subtitulo:after {
     background: #efc63e;
 }
 
-.portifolio_lista li:last-child {
+.portfolio_lista li:last-child {
     margin-top: 20px;
 }
 
 
-.portifolio .call p {
+.portfolio .call p {
     color: #fff;
 }
 
