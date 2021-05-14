@@ -33,6 +33,7 @@ img {
 }
 
 .subtitulo {
+    margin-top: 25px;
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
