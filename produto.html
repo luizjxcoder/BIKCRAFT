@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BikCraft - Produtos</title>
+
+    <meta name="description" content="Compre sua bicicleta personalizada na Bikcraft.
+    Possuimos modelo Retrô e Esporte">
+
+    <meta property="og:type" content="website"/>
+	<meta property="og:title" content="Bikcraft - Produtos personalizados"/>
+	<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte."/>
+	<meta property="og:url" content="http://bikcraft.com/produto.html"/>
+	<meta property="og:image" content="http://bikcraft.com/img/og-image.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -15,13 +27,12 @@
     <script>document.documentElement.classList.add("js");</script>
     
 </head>
-<body>
-
 
 <!-- ----------------------------------------------------------------------- -->
 <!--                                CABEÇALHO                                -->
 <!-- ----------------------------------------------------------------------- -->
 
+<body>
    <header class="header">
        <div class="container">
            <a href="index.html" class="grid-4">
@@ -119,16 +130,25 @@
      <section class="orcamento">
          <div class="container">
              <h2 class="subtitulo">Orçamento</h2>
-             <form id="form_orcamento" class="form grid-8">
-                 <label for="nome">Nome</label>
-                 <input type="text" id="nome">
+             <form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
+
+                <label for="nome">Nome</label>
+                 <input type="text" id="nome" name="nome" required>
                  <label for="nome">Email</label>
-                 <input type="text" id="email">
-                 <label for="nome">Telefone</label>
-                 <input type="text" id="telefone">
-                 <label for="espec">Especificações</label>
-                 <textarea id="espec"></textarea>
-                 <button type="submit" class="btn">Enviar</button>
+                 <input type="email" id="email" name="email" required>
+                 <label for="telefone">Telefone</label>
+                 <input type="text" id="telefone" name="telefone">
+
+                 <label class="nao-aparece">Se você não é um robo, não mude este campo.</label>
+                 <input type="text" class="nao-aparece" name="dontchange" value="htt://">
+                 </label>
+
+               
+                 <label for="mensagem">Mensagem</label>
+                 <textarea id="mensagem" name="mensagem" required></textarea>
+                 <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+
+
              </form>
              <div class="orcamento_dados grid-8">
                  <h3>Dados</h3>
@@ -212,6 +232,7 @@
 </footer>
 
 <script src="./js/simple-anime.js"></script>
+<script src="./js/simple-form.js"></script>
 <script src="./js/script.js"></script>
 
 </body>
