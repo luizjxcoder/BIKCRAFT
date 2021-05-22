@@ -789,7 +789,7 @@ img {
     display: block;
     background: url("../img/marca.png") no-repeat center;
     position: absolute;
-    top: 195px;
+    top: 215px;
     right: 162px;
     z-index: -1;
 }
