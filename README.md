@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">BIKCRAFT</h1>
 
-<img src="https://github.com/luizjxcoder/X-VELOX_MOTORBIKE/blob/master/CardSemFundopng_Prancheta%201.png"/>
+<img src=""/>
 
 ### :atom: TECNOLOGIAS USADAS NO PROJETO:
 </div>
