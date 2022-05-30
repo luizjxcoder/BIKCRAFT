@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">BIKCRAFT</h1>
 
-<img src=""/>
+<img src="https://github.com/luizjxcoder/BIKCRAFT/blob/master/CardGitmaterial-BIKCRAFT.png"/>
 
 ### :atom: TECNOLOGIAS USADAS NO PROJETO:
 </div>
