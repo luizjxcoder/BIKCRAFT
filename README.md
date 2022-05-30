@@ -47,9 +47,9 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
 
 #
 <div align="center">
-    <img alt="Logo do projeto" src="">
+    <img alt="Logo do projeto" src="https://github.com/luizjxcoder/luizjxcoder/blob/main/logo.png">
      <p>LINK DO MEU PROJETO NA VERCEL</p>
-    <h1>https://</h1>
+    <h1>[https://](https://bik-craft.vercel.app/)</h1>
 </div>
 
 <img src=""/>
