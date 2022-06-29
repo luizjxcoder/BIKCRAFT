@@ -25,7 +25,7 @@
 ### :triangular_ruler: PROJETO
 ```
 <p> Front-End completo de um website criado com aprendizado adquirido no curso Web Design da ORIGAMID.
-Foi usado tecnologias como HTML, CSS, JAVASCRIPTe PHP.Ferramentas como Adobe Photoshop e Illustrator
+Foi usado tecnologias como HTML, CSS, JAVASCRIPT e PHP.Ferramentas como Adobe Photoshop e Illustrator
 para editar e redimensionar imagens, Adobe XD para prototipar o projeto e VsCode como IDE. Aplicando 
 técnicas mais avançadas de formatação usando Grid Layout e trabalhando com responsividade seguindo o 
 conceito Mobile First.
