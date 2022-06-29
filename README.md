@@ -52,7 +52,7 @@ Projeto está hospedado no site Vercel, click no link abaixo e visualize meu pro
     <h1>[https://](https://bik-craft.vercel.app/)</h1>
 </div>
 
-<img src=""/>
+<img src="https://github.com/luizjxcoder/BIKCRAFT/blob/master/screenshot-bik-craft-gizwx8kub-luizjxcoder.vercel.app-2022.01.15-19_04_55.png"/>
 
 
 
